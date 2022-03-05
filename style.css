@@ -70,3 +70,25 @@ footer {
   header {
     width: 100%;
   }
+
+  main {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step-box {
+    width: 90%;
+    margin-right: 0px;
+  }
+
+  .step-box:nth-child(2) {
+    margin: 20px 0;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
